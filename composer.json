@@ -1,0 +1,17 @@
+{
+    "name": "alan/sets",
+    "authors": [
+        {
+            "name": "Alan Monger",
+            "email": "haveacigaro@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "amonger\\" : "src/"
+        }
+    }
+}
