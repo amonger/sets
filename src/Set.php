@@ -33,8 +33,8 @@ class Set
      */
     public function subset($start, $end)
     {
-        return $start > $this->boundaryStart
-        && $end < $this->boundaryEnd;
+        return $start >= $this->boundaryStart
+        && $end <= $this->boundaryEnd;
     }
 
     /**
